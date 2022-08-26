@@ -2,7 +2,8 @@ const siteMetadata = {
   title: 'Rabia Noreen - Web Analyst on Upwork',
   author: 'Rabia Noreen',
   headerTitle: 'Rabia Noreen - Web Analyst on Upwork',
-  description: 'A blog created by Web Analyst Rabia Noreen. All information you need to know about Google Analytics, Google Tag Manager and related stuff. ',
+  description:
+    'A blog created by Web Analyst Rabia Noreen. All information you need to know about Google Analytics, Google Tag Manager and related stuff. ',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://Rabianoreen.com',
@@ -16,8 +17,10 @@ const siteMetadata = {
   facebook: 'https://web.facebook.com/rabia.noreen.121772/',
   youtube: 'https://www.youtube.com/channel/UCybCZQlnGQSvlvBjwP3j3xg',
   linkedin: 'https://www.linkedin.com/in/rabia-noreen-43123812a/',
+  gtm_id: 'GTM-56PN3SS',
   locale: 'en-US',
   analytics: {
+    googleTagManagerID: 'GTM-56PN3SS',
     // If you want to use an analytics provider you have to add it to the
     // content security policy in the `next.config.js` file.
     // supports plausible, simpleAnalytics, umami or googleAnalytics
