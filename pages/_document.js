@@ -5,11 +5,11 @@ class MyDocument extends Document {
       <Html lang="en" className="scroll-smooth">
         <Head>
       <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+<Script strategy="afterInteractive" dangerouslySetInnerHTML={{ __html:'(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-56PN3SS');</script>
+})(window,document,'script','dataLayer','GTM-56PN3SS');`}}></Script>
 <!-- End Google Tag Manager -->
           <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
           <link
@@ -33,8 +33,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </Head>
         <body className="bg-white text-black antialiased dark:bg-gray-900 dark:text-white">
           <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56PN3SS"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+ <noscript dangerouslySetInnerHTML={{ __html: `<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-56PN3SS"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>`}}></noscript>
 <!-- End Google Tag Manager (noscript) -->
           <Main />
           <NextScript />
