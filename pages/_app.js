@@ -14,11 +14,6 @@ const isDevelopment = process.env.NODE_ENV === 'development'
 const isSocket = process.env.SOCKET
 let GTM_Tracking_ID = siteMetadata.analytics.googleTagManagerID || ''
 const isProduction = process.env.NODE_ENV === 'production'
-if (isProduction) {
-  GTM_Tracking_ID = siteMetadata.analytics.googleTagManagerID || ''
-} else {
-  GTM_Tracking_ID = 'GTM-XXXXXXX'
-}
 
 export default function App({ Component, pageProps }) {
   return (
